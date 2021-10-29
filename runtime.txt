@@ -1,0 +1,31 @@
+ms = millisecond
+μs - microsecond
+
+1 ms = 1000 μs 
+
+Results for the tinyArray
+insert 47.316 μs
+append 113.196 μs
+
+Results for the smallArray
+insert 49.685 μs
+append 105.269 μs
+
+Results for the mediumArray
+insert 168.513 μs
+append 157.719 μs
+
+Results for the largeArray
+insert 7.555614 ms
+append 701.384 μs
+
+Results for the extraLargeArray
+insert 945.321118 ms
+append 3.957207 ms
+
+Analysis: 
+(refer runtime_chart.png chart)
+
+Append has the best scalability compared to Insert. 
+The append function loops over the array of numbers and 'pushes' the new numbers into a new numbers array. The push methods adds elements to the end of an array which allows the function to operate at a better time complexity as the scale grows.  
+The insert function loops over the array of numbers and adds a new number to the begging of the array. This process shifts all the elements after that number over, which adds additional workload to the code and leads to poor scalability performance.

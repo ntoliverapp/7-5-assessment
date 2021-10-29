@@ -1,0 +1,62 @@
+CI/CD Tool: Bitbucket
+
+Value Add/Features:
+Endpoint: https://bitbucket.org/product/features/pipelines
+- CI/CD built into Bitbucket: "CI/CD where it belongs, right next to your code. No servers to manage (or use your own runners), repositories to synchronize, or user management to configure."
+- Easy setup and configuration: "Set up CI/CD in 2 steps with language-specific templates. Use configuration as code to manage and configure your infrastructure and leverage Bitbucket Pipes to create powerful, automated workflows."
+- Feedback where you need it: "Get build status on pull requests, commits, branches, and in your team's chat room."
+- Automate with ease: "Bitbucket Pipes makes building powerful, automated workflows easy."
+
+Getting Started Instructions:
+Endpoint: https://bitbucket.org/product/guides/basics/four-starting-steps
+Step 1: Put your code in Bitbucket
+You can get started ith your repositories (repos) on bitbucket in a few ways; Create a new repo OR insert one from another git repository
+Step 2: Set up locally, collaborate globally
+You can clone a repo, make changes to a file, and pull updates; all in bitbucket online
+Step 3: Basic branching with Bitbucket
+You can create a branch from bitbucket (easiest way), from the command line, or from Jira
+Step 4: Review code changes with a pull request
+You can create, view, and merge pull requests
+
+Maturity/Market Sales:
+Nov 7, 2016 on sonal bitbucket building, installation, users, and parameters
+https://github.com/teacurran/sonar-bitbucket
+
+Prices in comparison to github, according to upgard: https://www.upguard.com/blog/bitbucket-vs-github
+Cloud Edition
+ 	Free	Standard	Premium
+Price per user	$0	$3 / user / month starting price	$6 / user / month starting price
+User limit	Up to five users	Unlimited	Unlimited
+Build minutes sponsored by AWS	500 min / mo	3,500 min / mo	10,000 min / mo
+Error monitoring by Sentry	 	$50 credit	$100 credit
+Security scanning by Snyk	 	✓	✓
+Git Large File Storage	1 GB	5 GB	10 GB
+
+--------------------
+Real Time Error Monitoring: Raygun
+
+Website: https://raygun.com/blog/best-error-monitoring-tools/
+
+Value Add/Features:
+- See the exact line of code that caused an error
+- Monitor deployments to determine what caused a spike or decrease in error count
+- Full stack trace information and diagnostic details for every error occurrence or crash
+- Filter through your errors by date, time, version, tag, host, OS, browser, custom tags, and more
+- Reduce noise with configurable filters for machine name, version, IP address, hostname, and more
+- Groups errors by affected users (this also helps reduce noise)
+- 180-day data retention
+- Support for all major languages and frameworks
+
+Getting Started Instructions:
+Endpoint: https://raygun.com/documentation/product-guides/crash-reporting/introduction/
+1. Create an application in Raygun
+"We recommend setting up Crash Reporting in production as soon as possible, to capture errors impacting customers. However you can also set up Crash Reporting in a development environment."
+2. Send data to Crash Reporting
+"We recommend installing Raygun in a production environment, to start capturing any errors impacting your users. Once Raygun is installed, data will start to flow through and you’ll be redirected to the Crash Reporting dashboard."
+3. View diagnostics for errors
+"Click on the error message in the Error Inbox on the Crash Reporting dashboard to view the error report. Here you'll find all the information Raygun has captured about a particular error, giving you everything you need to diagnose and resolve it."
+
+Maturity/Market Sales:
+Endpoint: https://raygun.com/pricing
+"Raygun Error Monitoring and Crash reporting is priced on-demand. If charged annually, Raygun will cost $4 per 10,000 events, or $6 per 10,00 events if charged monthly."
+$8 for real user monitoring 
