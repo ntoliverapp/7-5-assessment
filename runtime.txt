@@ -26,6 +26,6 @@ append 3.957207 ms
 Analysis: 
 (refer runtime_chart.png chart)
 
-While both methods are 0(n) linear, Append has the best scalability compared to Insert. 
+In the first method, .push is O(1) constant, but the append method is O(n) linear. In the second method, .unshift is linear, but the insert function is O(n^2). Append has the best scalability compared to Insert. 
 The append function loops over the array of numbers and 'pushes' the new numbers into a new numbers array. The push methods adds elements to the end of an array which allows the function to operate at a better time complexity as the scale grows.  
 The insert function loops over the array of numbers and adds a new number to the begging of the array. This process shifts all the elements after that number over, which adds additional workload to the code and leads to poor scalability performance.
